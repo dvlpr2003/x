@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #1f2631;
+}
+.container {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  background-color: black;
+  height: 38rem;
+  width: 600px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+.logo-container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#x > img {
+  height: 30px;
+}
+.text-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 55px;
+  margin-bottom: 25px;
+}
+#x-text {
+  width: 300px;
+  margin-left: 35px;
+  color: white;
+  font-size: 27px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+#x {
+  font-size: 32px;
+}
+.options {
+  /* margin-left: 150px; */
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.options > div {
+  width: 320px;
+  height: 2.5rem;
+  background-color: white;
+  border-radius: 50em;
+  flex-shrink: 1;
+}
+.google {
+  position: relative;
+  overflow: hidden;
+}
+#madan-gowri {
+  height: 25px;
+  position: absolute;
+  border-radius: 50px;
+  top: 9px;
+  left: 5px;
+}
+.mail-container {
+  margin-left: 40px;
+  margin-top: 5px;
+}
+.text-1 {
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+.text-2 {
+  font-size: 0.8rem;
+}
+#google-logo {
+  height: 20px;
+  position: absolute;
+  right: 10px;
+  top: 12px;
+}
+.apple {
+  margin-bottom: 1.4rem;
+}
+#apple {
+  height: 35px;
+}
+.logo-app {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#text-apple {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.margin-1,
+.margin-2 {
+  width: 150px;
+  height: 1px;
+  background-color: #575757;
+  display: inline-block;
+  margin-top: 10px;
+}
+.or-text {
+  display: inline-block;
+  color: white;
+}
+.margin-2 {
+  display: inline-block;
+  margin-left: 5px;
+  width: 135px;
+}
+.margin-1 {
+  margin-right: 5px;
+  width: 135px;
+}
+#or {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.box {
+  border: 1px solid #575757;
+  width: 19.4rem;
+  height: 60px;
+  display: inline-block;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.input-box {
+  color: #575757;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+.box > span {
+  margin-left: 1.5rem;
+}
+.button-next {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.next {
+  color: rgb(0, 0, 0);
+  border: 1px solid white;
+  width: 19.5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5rem;
+  background-color: white;
+}
+.next > span {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+.forget-box {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.forget {
+  border: 1px solid #575757;
+  width: 19.5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5rem;
+  font-weight: bold;
+}
+.new-ac {
+  display: flex;
+  justify-content: center;
+}
+.new-ac1 {
+  color: rgb(119, 118, 118);
+  width: 19rem;
+}
+.new-ac1 > a {
+  color: rgb(4, 115, 206);
+  text-decoration: none;
+  font-family: sans-serif;
+}
+@media (max-width: 412px) {
+  body {
+    background-color: black;
+  }
+  .container {
+    margin-top: 5rem;
+    margin-bottom: 1px;
+    background-color: black;
+    height: 40rem;
+    border-radius: 16px;
+    overflow: hidden;
+  }
+}
